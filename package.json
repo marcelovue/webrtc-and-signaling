@@ -1,0 +1,38 @@
+{
+  "name": "media-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --hot --progress",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "mobx": "^5.5.2",
+    "mobx-react": "^5.3.5",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "bunyan-pretty-colors": "^0.1.7",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
